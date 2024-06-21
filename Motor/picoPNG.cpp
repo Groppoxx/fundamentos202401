@@ -4,7 +4,9 @@
 /*
 decodePNG: The picoPNG function, decodes a PNG file buffer in memory, into a raw pixel buffer.
 out_image: output parameter, this will contain the raw pixels after decoding.
-  By default the output is 32-bit RGBA color.
+  By default the output is 32-bit RGBA 
+  
+  .
   The std::vector is automatically resized to the correct size.
 image_width: output_parameter, this will contain the width of the image in pixels.
 image_height: output_parameter, this will contain the height of the image in pixels.
